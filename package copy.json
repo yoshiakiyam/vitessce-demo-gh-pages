@@ -1,7 +1,6 @@
 {
   "name": "vitessce-demo-gh-pages",
   "private": true,
-  "homepage": "https://yoshiakiyam.github.io/vitessce-demo-gh-pages/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
