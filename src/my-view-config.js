@@ -32,7 +32,15 @@ export const myViewConfig = {
       ],
     },
   ],
+
+
+
+
   initStrategy: "auto",
+
+
+
+
   coordinationSpace: {
     embeddingType: {
       UMAP: "UMAP",
@@ -41,15 +49,11 @@ export const myViewConfig = {
       A: [0, 0.35],
     },
   },
+
+
+
   layout: [
-    {
-      component: "obsSets",
-      h: 4, w: 4, x: 4, y: 0,
-    },
-    {
-      component: "obsSetSizes",
-      h: 4, w: 4, x: 8, y: 0,
-    },
+
     {
       component: "scatterplot",
       h: 4, w: 4, x: 0, y: 0,
@@ -57,24 +61,6 @@ export const myViewConfig = {
         embeddingType: "UMAP",
         featureValueColormapRange: "A",
       },
-    },
-    {
-      component: "heatmap",
-      h: 4, w: 8, x: 0, y: 4,
-      coordinationScopes: {
-        featureValueColormapRange: "A",
-      },
-      props: {
-        transpose: true,
-      },
-    },
-    {
-      component: "featureList",
-      h: 4, w: 2, x: 8, y: 4,
-    },
-    {
-      component: "description",
-      h: 4, w: 2, x: 10, y: 4,
     },
   ],
 };
